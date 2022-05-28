@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/6204062630475.github.io/Numerical/static/css/main.073c9b0a.css",
+    "main.js": "/6204062630475.github.io/Numerical/static/js/main.f0d368ce.js",
+    "static/js/787.259e2c8f.chunk.js": "/6204062630475.github.io/Numerical/static/js/787.259e2c8f.chunk.js",
+    "index.html": "/6204062630475.github.io/Numerical/index.html",
+    "main.073c9b0a.css.map": "/6204062630475.github.io/Numerical/static/css/main.073c9b0a.css.map",
+    "main.f0d368ce.js.map": "/6204062630475.github.io/Numerical/static/js/main.f0d368ce.js.map",
+    "787.259e2c8f.chunk.js.map": "/6204062630475.github.io/Numerical/static/js/787.259e2c8f.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.073c9b0a.css",
+    "static/js/main.f0d368ce.js"
+  ]
+}
