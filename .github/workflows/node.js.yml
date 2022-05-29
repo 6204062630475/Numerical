@@ -5,16 +5,19 @@ name: Node CI
 
 on:
   push:
-    branches: [ main ]
+   branches:
+      - "master"
 
 jobs:
   build:
     runs-on: ubuntu-latest
     strategy:
       matrix:
-        node-version: [16.13.2]
+        node-version: [15.x]
         # See supported Node.js release schedule at https://nodejs.org/en/about/releases/
 
     steps:
     - uses: actions/checkout@v3
     - run: npm install
+    - run: npm run build
+    - run: npm test
