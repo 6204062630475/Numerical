@@ -11,7 +11,6 @@ import List from '@mui/material/List';
 import Divider from '@mui/material/Divider';
 import ListItem from '@mui/material/ListItem';
 import ListItemButton from '@mui/material/ListItemButton';
-import ListItemText from '@mui/material/ListItemText';
 
 import { Link } from 'react-router-dom'
 
@@ -36,28 +35,18 @@ export default function ButtonAppBar() {
       onKeyDown={toggleDrawer(anchor, false)}
     >
       <List>
-        {/* {['Bisection', 'False Position'].map((text, index) => (
-          <ListItem key={text} disablePadding>
-            <ListItemButton>
-              <ListItemText primary={text} />
-            </ListItemButton>
-          </ListItem>
-        ))} */}
         <ListItem key={'Bisection'} disablePadding>
           <ListItemButton>
-            {/* <ListItemText primary={'Bisection'} /> */}
             <Link to="/Bisection">Bisection</Link>
           </ListItemButton>
         </ListItem>
         <ListItem key={'False Position'} disablePadding>
           <ListItemButton>
-            {/* <ListItemText primary={'False Position'} /> */}
             <Link to="/FalsePosition">FalsePosition</Link>
           </ListItemButton>
         </ListItem>
         <ListItem key={'Newton Raphson'} disablePadding>
           <ListItemButton>
-            {/* <ListItemText primary={'False Position'} /> */}
             <Link to="/Newton">Newton Raphson</Link>
           </ListItemButton>
         </ListItem>
